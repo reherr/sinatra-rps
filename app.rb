@@ -49,4 +49,6 @@ get("/scissors") do
   else @outcome = "won"
   end
 
+erb(:lion)
+
 end
